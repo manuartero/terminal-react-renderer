@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(49, 49, 91);
+  color: rgb(241, 241, 241);
+  height: 100vh;
+}

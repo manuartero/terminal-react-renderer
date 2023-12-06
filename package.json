@@ -1,0 +1,32 @@
+{
+  "name": "@raw-js/react-template",
+  "version": "0.1.0",
+  "description": "Template for minimal React app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "manutero.developer@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manuartero/raw-js-react-template.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-react": "^7.23.3",
+    "parcel-bundler": "^1.12.5"
+  }
+}
